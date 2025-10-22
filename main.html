@@ -1,16 +1,65 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pricing Card</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.card {
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.card h1 {
+  font-size: 24px;
+  margin: 15px 0 10px;
+}
+.card p {
+  color: #555;
+  margin: 8px 0;
+}
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+.card button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.card button:hover {
+  background-color: #0056b3;
+}
+</style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+<div class="card">
+  <img src="https://storage.googleapis.com/acciojob-open-file-collections/pricing-card.png" alt="Product Image">
+  <h1>Premium Plan</h1>
+  <p class="price">$29.99/month</p>
+  <p>Enjoy unlimited access to all premium features and customer support.</p>
+  <button>Buy Now</button>
+</div>
 </body>
-
 </html>
